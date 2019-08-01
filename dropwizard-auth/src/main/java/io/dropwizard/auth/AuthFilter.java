@@ -24,6 +24,11 @@ public abstract class AuthFilter<C, P extends Principal> implements ContainerReq
     protected Authorizer<P> authorizer;
     protected UnauthorizedHandler unauthorizedHandler;
 
+    
+    public static int Foo() {
+        return 3;
+    }
+    
     /**
      * Abstract builder for auth filters.
      *
