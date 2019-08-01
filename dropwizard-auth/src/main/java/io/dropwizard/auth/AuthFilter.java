@@ -31,7 +31,7 @@ public abstract class AuthFilter<C, P extends Principal> implements ContainerReq
     * @return the current foo
     */
     public static int foo() {
-        return 3;
+        return 43;
     }
     
     /**
