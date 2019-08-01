@@ -25,7 +25,12 @@ public abstract class AuthFilter<C, P extends Principal> implements ContainerReq
     protected UnauthorizedHandler unauthorizedHandler;
 
     
-    public static int Foo() {
+    /**
+    * Does a Foo
+    *
+    * @return the current foo
+    */
+    public static int foo() {
         return 3;
     }
     
